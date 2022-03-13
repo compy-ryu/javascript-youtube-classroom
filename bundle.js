@@ -910,6 +910,7 @@ var SELECTOR = Object.freeze({
     CLASSROOM_NAVIGATION: '#classroom-navigation',
     SEARCH_MODAL_BUTTON: '#search-modal-button',
     MODAL_CONTAINER: '#modal',
+    VIDEO_LIST: '#video-list',
     VIDEO_RESULT: '#video-result',
     SEARCH_FORM: '#search-form',
     SEARCH_INPUT_KEYWORD: '#search-input-keyword',
@@ -1611,13 +1612,10 @@ var SearchResult = /*#__PURE__*/function (_Display) {
 
       if (items.length === 0 && isLoaded === false) {
         this.$videoResult.replaceChildren('');
-        return;
-      }
-
-      if (items.length === 0) {
-        this.$videoResult.scrollTo({
+        this.$videoResult.closest(_Constants_Selector__WEBPACK_IMPORTED_MODULE_11__.SELECTOR.ID.VIDEO_LIST).scrollTo({
           top: 0
         });
+        return;
       }
 
       var $videoList = _classPrivateMethodGet(this, _getVideoElementList, _getVideoElementList2).call(this, items);
