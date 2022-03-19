@@ -858,7 +858,7 @@ var requestYoutubeSearch = /*#__PURE__*/function () {
               type: 'video',
               q: keyword,
               maxResults: _Constants_Setting__WEBPACK_IMPORTED_MODULE_2__.CLASS_ROOM_SETTING.MAX_VIDEO_NUMBER,
-              key: "AIzaSyBga-nLg5rloL8il0MN5NxFInjjyuE8B2g",
+              key: "AIzaSyDnOTzd_488TzF006vvLklP3u1oCDB6pxE",
               pageToken: nextPageToken
             });
             _context2.next = 6;
@@ -904,7 +904,7 @@ var requestYoutubeList = /*#__PURE__*/function () {
             url = (0,_Utils_ManageData__WEBPACK_IMPORTED_MODULE_3__.getUrlSearchParams)('https://www.googleapis.com/youtube/v3/videos', {
               part: 'snippet',
               id: list.join(','),
-              key: "AIzaSyBga-nLg5rloL8il0MN5NxFInjjyuE8B2g"
+              key: "AIzaSyDnOTzd_488TzF006vvLklP3u1oCDB6pxE"
             });
             _context3.next = 5;
             return request(url, {
