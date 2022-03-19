@@ -2222,7 +2222,6 @@ var YoutubeSaveStorage = /*#__PURE__*/function () {
       var videoIndex = _classPrivateMethodGet(this, _getVideoIdToIndex, _getVideoIdToIndex2).call(this, videoId);
 
       var updateList = this.get();
-      alert(JSON.stringify(updateList));
       updateList[videoIndex].watched = isWatched;
       localStorage.setItem((0,_babel_runtime_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_3__["default"])(this, _STORAGE_NAME), JSON.stringify(updateList));
     }

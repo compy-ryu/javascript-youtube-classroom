@@ -6916,10 +6916,9 @@ input {
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(0.2rem);
     -webkit-backdrop-filter: blur(0.2rem);
-    z-index: 2;
-    animation: 0.3s ease u0a60db1f; }
+    animation: 0.3s ease ubd98cad6; }
 
-@keyframes u0a60db1f {
+@keyframes ubd98cad6 {
   from {
     opacity: 0;
     backdrop-filter: blur(0rem);
@@ -6938,10 +6937,9 @@ input {
     border-radius: 4px;
     padding: 3.5rem 2rem 2.2rem;
     margin: 0 auto;
-    z-index: 3;
-    animation: 0.3s ease uaed1a113; }
+    animation: 0.3s ease u9ceed832; }
 
-@keyframes uaed1a113 {
+@keyframes u9ceed832 {
   from {
     opacity: 0;
     transform: translateY(100%) scale(0.5); }
@@ -6964,9 +6962,9 @@ input {
       text-align: center;
       margin-bottom: 2.6rem; }
   .modal-container.disappear .dimmer {
-    animation: 0.3s ease ub8becfcb; }
+    animation: 0.3s ease u522f832a; }
 
-@keyframes ub8becfcb {
+@keyframes u522f832a {
   from {
     opacity: 1;
     backdrop-filter: blur(0.2rem);
@@ -6976,9 +6974,9 @@ input {
     backdrop-filter: blur(0rem);
     -webkit-backdrop-filter: blur(0rem); } }
   .modal-container.disappear .modal-content {
-    animation: 0.3s ease u6db030f0; }
+    animation: 0.3s ease ue8aa3cf9; }
 
-@keyframes u6db030f0 {
+@keyframes ue8aa3cf9 {
   from {
     opacity: 1;
     transform: translateY(0%) scale(1); }
@@ -6997,11 +6995,10 @@ input {
   margin: 0 auto;
   transition: filter 0.3s ease;
   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
-  z-index: 3;
   cursor: pointer;
-  animation: 0.2s ease-out u3e40d16c; }
+  animation: 0.2s ease-out u9def211d; }
 
-@keyframes u3e40d16c {
+@keyframes u9def211d {
   from {
     opacity: 0;
     transform: scale(0.5) translateY(100%); }
@@ -7009,9 +7006,9 @@ input {
     opacity: 1;
     transform: scale(1) translateY(0); } }
   .snackbar-container.disappear {
-    animation: 0.2s ease-out u54c6c83c; }
+    animation: 0.2s ease-out u3e2c49b9; }
 
-@keyframes u54c6c83c {
+@keyframes u3e2c49b9 {
   from {
     opacity: 1;
     transform: scale(1) translateY(0); }
@@ -7264,9 +7261,9 @@ h1.classroom-title {
       .modal-video-search .search-result #skeleton-list .skeleton .line {
         background-image: linear-gradient(90deg, #ddd 0px, #ededed 30px, #ddd 60px);
         margin-bottom: 0.8rem;
-        animation: 2s infinite ease-out u2fff97c8; }
+        animation: 2s infinite ease-out u424dcac8; }
 
-@keyframes u2fff97c8 {
+@keyframes u424dcac8 {
   0% {
     background-position: calc(-100px); }
   40%,
