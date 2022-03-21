@@ -6916,9 +6916,9 @@ input {
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(0.2rem);
     -webkit-backdrop-filter: blur(0.2rem);
-    animation: 0.3s ease ub24dfd90; }
+    animation: 0.3s ease uce06b8f2; }
 
-@keyframes ub24dfd90 {
+@keyframes uce06b8f2 {
   from {
     opacity: 0;
     backdrop-filter: blur(0rem);
@@ -6937,9 +6937,9 @@ input {
     border-radius: 4px;
     padding: 3.5rem 2rem 2.2rem;
     margin: 0 auto;
-    animation: 0.3s ease uc19ea1da; }
+    animation: 0.3s ease udf266c42; }
 
-@keyframes uc19ea1da {
+@keyframes udf266c42 {
   from {
     opacity: 0;
     transform: translateY(100%) scale(0.5); }
@@ -6962,9 +6962,9 @@ input {
       text-align: center;
       margin-bottom: 2.6rem; }
   .modal-container.disappear .dimmer {
-    animation: 0.3s ease uad30082b; }
+    animation: 0.3s ease u82aa07c4; }
 
-@keyframes uad30082b {
+@keyframes u82aa07c4 {
   from {
     opacity: 1;
     backdrop-filter: blur(0.2rem);
@@ -6974,9 +6974,9 @@ input {
     backdrop-filter: blur(0rem);
     -webkit-backdrop-filter: blur(0rem); } }
   .modal-container.disappear .modal-content {
-    animation: 0.3s ease u7a733902; }
+    animation: 0.3s ease ua5fdbd76; }
 
-@keyframes u7a733902 {
+@keyframes ua5fdbd76 {
   from {
     opacity: 1;
     transform: translateY(0%) scale(1); }
@@ -6996,9 +6996,9 @@ input {
   transition: filter 0.3s ease;
   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  animation: 0.2s ease-out u4df8b619; }
+  animation: 0.2s ease-out u7b827e95; }
 
-@keyframes u4df8b619 {
+@keyframes u7b827e95 {
   from {
     opacity: 0;
     transform: scale(0.5) translateY(100%); }
@@ -7006,9 +7006,9 @@ input {
     opacity: 1;
     transform: scale(1) translateY(0); } }
   .snackbar-container.disappear {
-    animation: 0.2s ease-out uc0aca33f; }
+    animation: 0.2s ease-out u564dc902; }
 
-@keyframes uc0aca33f {
+@keyframes u564dc902 {
   from {
     opacity: 1;
     transform: scale(1) translateY(0); }
@@ -7261,9 +7261,9 @@ h1.classroom-title {
       .modal-video-search .search-result #skeleton-list .skeleton .line {
         background-image: linear-gradient(90deg, #ddd 0px, #ededed 30px, #ddd 60px);
         margin-bottom: 0.8rem;
-        animation: 2s infinite ease-out u24410169; }
+        animation: 2s infinite ease-out u60948103; }
 
-@keyframes u24410169 {
+@keyframes u60948103 {
   0% {
     background-position: calc(-100px); }
   40%,
