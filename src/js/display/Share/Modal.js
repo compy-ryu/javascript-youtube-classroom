@@ -15,7 +15,7 @@ export default class Modal {
       handler: this.handleCloseModal,
     });
 
-    addEventDelegate(this.$container, '*[data-open-modal]', {
+    addEventDelegate(this.$container, '[data-open-modal]', {
       eventType: 'click',
       handler: this.handleOpenModal,
     });
